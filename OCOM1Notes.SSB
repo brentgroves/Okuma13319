@@ -5,20 +5,21 @@ specific tools to be output through the COM port.
 
 OCOM0
 IF [VC40 NE 1] N10 (Only works when VC40 = 1)
-PUT '       103' (All items output are a fixed length of 10)
-PUT '     61442' (Toollist processID.)
+PUT '    103, 1' (All items output are a fixed length of 10)
+PUT '     49396' (Toollist processID.)
 PUT VC20 (Each variable will be output with a fixed lenght of 10)
 PUT VC12
 PUT VC1
-PUT VC10
+PUT VC10                               
 PUT VC11
 PUT VC13
 PUT VC16
 PUT VC7
-PUT VC8
 (Only 10 fixed length blocks of 10 are recieved at 1 time from Moxa to UDP server)
-PUT '        2:'  (This is needed because the first variable received was less than 10 characters)
+PUT '    103, 2' (All items output are a fixed length of 10)
+PUT '     49396' (Toollist processID.)
 (UDP server must seek ':' character to get in sync with the 2 recieved buffer)
+PUT VC8
 PUT VC9  ( Each variable after the first in the second buffer has a fixed lenght of 10)
 PUT VC4
 PUT VC5
@@ -27,7 +28,9 @@ WRITE 0 (Only 160 characters can be output at one time.)
 N10
 RTS
 
-
+tool1=71684
+BUG: If you set the counter back by IncrementBy the
+running total will not be incremented. 
 Each frame sent by Okuma starts with a DC2 (x12) character and
 sometimes that character is in a buffer with just 1 character.
 Each frame sent by Okuma is terminated with '%' (x25) and then
