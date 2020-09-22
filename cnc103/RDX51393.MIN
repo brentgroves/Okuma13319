@@ -2,6 +2,8 @@
 (PART NUMBER: 51393-TJB-A030-M1) (M02)     
 (PROGRAM: 1/25/18 JMW)
 (REVISION:4 11/03/17 JMW)
+(Plex: OCOM1)  
+({“Part_No”: “10024895-JT”,”Revision”:”I”,”Operation_No”:100,”CV”:[10,11,1,12,2,13,4,5,16,7,8,9})
 (******OP 10******)
 (T1=85.24MM ROUGH BORE)
 (T12=86.125MM PRE REAM BORE)
