@@ -1,0 +1,18 @@
+/*
+13|T01        |3IN FACE MILL
+14|T21        |2IN FACEMILL             
+15|T22        |M6 TAP DRILL             
+16|T23        |M6X1 TAP                 
+17|T72        |15.1MM DRILL             
+18|T33        |ROUGH BORE               
+19|T30        |FINISH CENTER BORE     
+20|T4         |FACE & DRILL CALIPER HOLES
+21|T15        |1.937 INDEXABLE DRILL    
+22|T7         |ROUGH DATUM J BORE       
+23|T6         |ROUGH DATUM L BORE       
+24|T9         |DATUM L 44.330MM ROMICRON
+25|T8         |DATUM J 50.110MM ROMICRON
+26|T12        |TAPER DREAMER            
+27|T13        |PLUNGE MILL              
+28|T14        |CHAMFER MILL             
+ */

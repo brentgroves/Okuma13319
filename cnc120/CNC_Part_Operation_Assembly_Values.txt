@@ -1,0 +1,38 @@
+Tool_No|Tool_Life
+-------|---------
+T01    |      198/200
+T21    |      198/200
+T22    |     2498/2500
+T23    |     2998/3000
+T72    |     1798/1800
+T33    |      198/200
+T30    |      348/350
+T4     |      798/3000
+T15    |      298/300
+T7     |     2498/2500
+T6     |      198/200
+T9     |     3498/3000
+T8     |     3498/3000
+T12    |    17998/18000
+T13    |      798/800
+T14    |     4998/5000
+
+CNC_Part_Operation_Assembly_Key,CNC_Key,Part_Key,Operation_Key,
+Assembly_Key,Increment_By,Tool_Life,Current_Value,Fastest_Cycle_Time,Last_Update)
+
+-- values (13,3,2794706,51168,13,2,200,-1,600,@Last_Update )  -- vc1
+-- values (14,3,2794706,51168,14,2,200,-1,600,@Last_Update )  -- vc21
+-- values (15,3,2794706,51168,15,2,2500,-1,600,@Last_Update )  -- vc22
+-- values (16,3,2794706,51168,16,2,3000,-1,600,@Last_Update )  -- vc23
+-- values (17,3,2794706,51168,17,2,1800,-1,600,@Last_Update )  -- vc72
+-- values (18,3,2794706,51168,18,2,200,-1,600,@Last_Update )  -- vc33
+-- values (19,3,2794706,51168,19,2,350,-1,600,@Last_Update )  -- vc30
+-- values (20,3,2794706,51168,20,2,3000,-1,600,@Last_Update )  -- vc4
+-- values (21,3,2794706,51168,21,2,300,-1,600,@Last_Update )  -- vc15
+-- values (22,3,2794706,51168,22,2,2500,-1,600,@Last_Update )  -- vc7
+-- values (23,3,2794706,51168,23,2,200,-1,600,@Last_Update )  -- vc6
+-- values (24,3,2794706,51168,24,2,3000,-1,600,@Last_Update )  -- vc9
+-- values (25,3,2794706,51168,25,2,3000,-1,600,@Last_Update )  -- vc8
+-- values (26,3,2794706,51168,26,2,18000,-1,600,@Last_Update )  -- vc12
+-- values (27,3,2794706,51168,27,2,800,-1,600,@Last_Update )  -- vc13
+-- values (28,3,2794706,51168,28,2,5000,-1,600,@Last_Update )  -- vc14
