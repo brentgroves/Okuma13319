@@ -1,0 +1,36 @@
+OCOM1
+IF [VC40 NE 1] N10
+WRITE 0
+PUT '{{{{}'
+PUT '103'
+PUT ','
+PUT VC20
+PUT ','
+PUT VC12
+PUT ','
+PUT VC1 
+PUT ',' 
+PUT VC10 
+PUT ','
+PUT VC11 
+PUT ',' 
+PUT VC13
+PUT ',' 
+PUT VC16 
+PUT ',' 
+PUT VC7  
+PUT ',' 
+PUT VC8 
+PUT ',' 
+PUT VC9 
+PUT ',' 
+PUT VC4 
+PUT ',' 
+PUT VC5
+PUT ',' 
+PUT VC2 
+WRITE 0
+N10
+RTS
+
+160 CHARACTERS MAX
